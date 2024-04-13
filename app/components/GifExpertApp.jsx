@@ -4,7 +4,7 @@ import AgregarCategoria from "./AddCategory";
 import GifGrid from "./GifGrid";
 
 const GifExpertApp = () => {
-  const [categories, setCategories] = useState(["Dragon Ball"]);
+  const [categories, setCategories] = useState([]);
 
   const onAddCategory = (newCategory) => {
     if (categories.includes(newCategory)) return;
